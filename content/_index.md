@@ -83,7 +83,7 @@ Ready to get started? [Click here](getting-started).
 			</div>
 			<div class="tab-content">
 				<div class="tab-pane active terminal-box" id="simulator-panel-terminal" role="tabpanel" aria-labelledby="simulator-tab-terminal">
-					<textarea class="terminal" readonly tabindex="0"></textarea>
+					<div class="terminal" tabindex="0"></div>
 				</div>
 				<div class="tab-pane panel-properties content" id="simulator-panel-properties" role="tabpanel" aria-labelledby="simulator-properties-tab">
 					<div class="content" tabindex="0"></div>
@@ -105,7 +105,7 @@ Ready to get started? [Click here](getting-started).
 {{% /blocks/section %}}
 
 {{< blocks/section color="primary" type="row" >}}
-{{% blocks/feature icon="fa-lightbulb" title="TinyGo Playground" url="https://play.tinygo.org/" %}}
+{{% blocks/feature icon="fa-lightbulb" title="TinyGo Playground" url="/play/" %}}
 Try TinyGo online
 {{% /blocks/feature %}}
 
